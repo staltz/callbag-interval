@@ -1,0 +1,16 @@
+{
+  "name": "callbag-interval",
+  "version": "1.0.0",
+  "description":
+    "A callbag listenable source that sends incremental numbers every x milliseconds",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
