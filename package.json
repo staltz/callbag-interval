@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description":
     "A callbag listenable source that sends incremental numbers every x milliseconds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-interval.git"
+  },
   "main": "index.js",
   "types": "types.d.ts",
   "scripts": {
