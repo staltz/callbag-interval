@@ -12,9 +12,9 @@ const observe = require('callbag-observe');
 
 const source = interval(1000);
 
-source(0, observe(x => console.log(x))); // 0
-                                         // 1
-                                         // 2
-                                         // 3
-                                         // ...
+observe(x => console.log(x))(source); // 0
+                                      // 1
+                                      // 2
+                                      // 3
+                                      // ...
 ```
