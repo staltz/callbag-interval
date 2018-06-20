@@ -1,3 +1,2 @@
-import { Callbag } from '../callbag/typings';
-declare const interval: (period: number) => Callbag;
-export = interval;
+import { Source } from 'callbag';
+export declare const interval: (period: number) => Source<number>;
