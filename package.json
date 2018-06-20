@@ -1,8 +1,7 @@
 {
   "name": "callbag-interval",
   "version": "1.0.0",
-  "description":
-    "A callbag listenable source that sends incremental numbers every x milliseconds",
+  "description": "A callbag listenable source that sends incremental numbers every x milliseconds",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/staltz/callbag-interval.git"
@@ -14,8 +13,13 @@
   },
   "author": "staltz.com",
   "license": "MIT",
-  "keywords": ["callbag"],
+  "keywords": [
+    "callbag"
+  ],
   "devDependencies": {
     "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "callbag": "^1.1.0"
   }
 }
