@@ -17,6 +17,7 @@
     "callbag"
   ],
   "devDependencies": {
+    "callbag-timer": "^1.0.0",
     "tape": "^4.8.0"
   },
   "dependencies": {
