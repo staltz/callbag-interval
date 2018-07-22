@@ -6,10 +6,14 @@
     "type": "git",
     "url": "git+https://github.com/staltz/callbag-interval.git"
   },
-  "main": "index.js",
+  "main": "index.cjs.js",
+  "module": "index.js",
   "types": "types.d.ts",
   "scripts": {
-    "test": "tape test.js"
+    "build": "rollup $npm_package_module -o $npm_package_main --f cjs",
+    "pretest": "npm run build",
+    "test": "tape test.js",
+    "prepare": "npm test"
   },
   "author": "staltz.com",
   "license": "MIT",
@@ -17,6 +21,7 @@
     "callbag"
   ],
   "devDependencies": {
+    "rollup": "^0.63.4",
     "tape": "^4.8.0"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 const test = require('tape');
-const interval = require('./index');
+const interval = require('.');
 
 test('interval(50) sends 5 times then we dispose it', function(t) {
   t.plan(5);
