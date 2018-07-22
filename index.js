@@ -9,4 +9,4 @@ const interval = period => (start, sink) => {
   });
 };
 
-module.exports = interval;
+export default interval;
