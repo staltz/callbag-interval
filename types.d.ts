@@ -1,2 +1,3 @@
 import { Source } from 'callbag';
-export declare const interval: (period: number) => Source<number>;
+declare const interval: (period: number) => Source<number>;
+export default interval
